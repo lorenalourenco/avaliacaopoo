@@ -15,6 +15,8 @@ public class Principal {
     public void setJ1(Jogo j1) {
         this.j1 = j1;
         j1.setDificuldade("easy");
+        j1.addJogador(p1);
+        j1.addJogador(p2);
     }
     
     p1.botaoA(adversariohaha);//primeiro ataque normal
